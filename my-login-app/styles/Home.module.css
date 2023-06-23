@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content p {
+  margin-bottom: 16px;
+}
+
+.nav-container {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: #0070f3;
+  margin-right: 8px;
+}
+
+.nav-container a:hover {
+  text-decoration: underline;
+}
+
+.userList {
+  margin-top: 20px;
+}
+
+.userCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.formContainer {
+  margin-top: 20px;
+}
+
+.formContainer input[type="text"],
+.formContainer input[type="email"],
+.formContainer button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.formContainer button {
+  background-color: #0070f3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.formContainer button:hover {
+  background-color: #0058c5;
+}
+
+.errorMsg {
+  color: red;
+  margin-top: 5px;
+}
+
+.successMsg {
+  color: green;
+  margin-top: 5px;
+}

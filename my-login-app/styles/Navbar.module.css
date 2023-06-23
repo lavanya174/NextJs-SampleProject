@@ -1,0 +1,27 @@
+.nav {
+    background-color: lightblue;
+    padding: 10px;
+    height: 40px;
+  }
+  
+  ul.navList {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  
+  .navItem {
+    font-size: 18px;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+  }
+  
+  .navLink:hover {
+    color: #a8a8a8;
+  }
+  

@@ -1,0 +1,20 @@
+.user-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .user-info,
+  .address-info,
+  .company-info {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .address-info,
+  .company-info {
+    margin-top: 20px;
+  }
+  
